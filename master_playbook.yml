@@ -1,0 +1,7 @@
+---
+- name: nginx-plybook via role
+  hosts: all
+  become: yes
+  become_user: root
+  roles:
+  - nginx-role
