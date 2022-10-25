@@ -31,5 +31,7 @@ Steps to NOT use pem file
     - enter user password to copy id_rsa.pub file
   
   $ ansible aws_ec2 -i aws_ec2.yml -m ping
+ 
+ $ ansible-playbook aws_ec2 -i aws-ec2.yml master_playbook.yml --private-key=abc.pem
 
 
