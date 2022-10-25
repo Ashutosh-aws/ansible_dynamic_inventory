@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    color: whitesmoke;
+    background-color: #121212;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    text-decoration: none;
+    opacity: 1;
+    position: relative;
+    white-space: normal;
+    padding: 0;
+}
+
+nav {
+    height: 5vh;
+    background:#121212;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s
+}
+
+nav ul {
+    display: flex;
+    height: 5vh;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    transition: 0.7s;
+    transform: scale(1.0);
+}
+
+nav a:hover {
+    color: #b8b8b8;
+    transform: scale(1.15);
+    transition: 0.7s;
+}
+
+
+#inside {
+    height: 88vh;
+    overflow: hidden;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s;
+    background-color: #181818;
+    border-radius: 36px;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btext {
+    font-size: 30px;
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 1.4em;
+}
+
+.button {
+    display: inline-block;
+    background-color: #2ac5a1;
+    color: whitesmoke;
+    border: none;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 3px 10px 3px 10px;
+    font-weight: normal;
+    text-decoration: none;
+    transition: 0.7s;
+    transform: scale(1.0);
+}
+
+.button:hover {
+    color: #ffffff80;
+    background-color: #21967a;
+    transform: scale(1.15);
+    transition: 0.7s;
+}
+
+.section2 {
+    height: 5vh;
+    background-color: #121212;
+    background:#121212;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s
+}
+
+.title {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 0;
+}
+
+.titleSubHeading2 {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #2ac5a1;
+    transition: 0.7s;
+    display: inline;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #21967a;
+    transition: 0.7s;
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -50px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -50px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}

@@ -1,0 +1,11 @@
+---
+- name: copy Nginx Custom Config File to node
+  copy: src=custom-nginx.conf dest=/etc/nginx/sites-available/custom-nginx.conf
+- name: copy custom jss file to node
+  copy: src=script.js dest=/var/www/html/script.js
+- name: copy custom css file to node
+  copy: src=style.css dest=/var/www/html/style.css
+
+- name: copy custom html file to node
+  copy: src=index.html dest=/var/www/html/index.html
+
