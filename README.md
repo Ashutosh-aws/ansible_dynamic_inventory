@@ -28,7 +28,7 @@ Steps to NOT use pem file
   * on ansible master
     - $ ssh-keygen
     - $ ssh-copy-id <username_of_node_m/c>@<ip_of_node>
-    - enter user password to copy id_rsa.pub file
+    - enter user password for given username to copy id_rsa.pub file 
   
   $ ansible aws_ec2 -i aws_ec2.yml -m ping
  
